@@ -1,0 +1,106 @@
+{
+    "provinceStat": {
+        "model": "ProvinceStat",
+        "documents": [
+            {
+                "_id": "5e6f2b990125fe002fee91e1",
+                "name": "Central",
+                "stat": {
+                    "recovered": 2946,
+                    "new_cases": 1,
+                    "active_cases": 12,
+                    "total_cases": 3147,
+                    "total_deaths": 12
+                }
+            },
+            {
+                "_id": "5e6f2b990125fe002fee91e2",
+                "name": "Eastern",
+                "stat": {
+                    "recovered": 2946,
+                    "new_cases": 1,
+                    "active_cases": 12,
+                    "total_cases": 3147,
+                    "total_deaths": 12
+                }
+            },
+            {
+                "_id": "5e7ec572321cb9653660fd74",
+                "name": "Northern",
+                "stat": {
+                    "recovered": 2946,
+                    "new_cases": 1,
+                    "active_cases": 12,
+                    "total_cases": 3147,
+                    "total_deaths": 12
+                }
+            },
+            {
+                "_id": "5e7ec586321cb9653660fd75",
+                "name": "Southern",
+                "stat": {
+                    "recovered": 2946,
+                    "new_cases": 1,
+                    "active_cases": 12,
+                    "total_cases": 3147,
+                    "total_deaths": 12
+                }
+            },
+            {
+                "_id": "5e6f2b990125fe002fee91e3",
+                "name": "Western",
+                "stat": {
+                    "recovered": 2946,
+                    "new_cases": 1,
+                    "active_cases": 12,
+                    "total_cases": 3147,
+                    "total_deaths": 12
+                }
+            },
+            {
+                "_id": "5e6f2b990125fe002fee91e4",
+                "name": "North Western",
+                "stat": {
+                    "recovered": 2946,
+                    "new_cases": 1,
+                    "active_cases": 12,
+                    "total_cases": 3147,
+                    "total_deaths": 12
+                }
+            },
+            {
+                "_id": "5e66221d117d32002fdc17d9",
+                "name": "North Central",
+                "stat": {
+                    "recovered": 2946,
+                    "new_cases": 1,
+                    "active_cases": 12,
+                    "total_cases": 3147,
+                    "total_deaths": 12
+                }
+            },
+            {
+                "_id": "5e66221d117d32002fdc17dc",
+                "name": "Uva",
+                "stat": {
+                    "recovered": 2946,
+                    "new_cases": 1,
+                    "active_cases": 12,
+                    "total_cases": 3147,
+                    "total_deaths": 12
+                }
+            },
+            {
+                "_id": "5e66221d117d32002fdc17df",
+                "name": "Sabaragamuwa",
+                "stat": {
+                    "recovered": 2946,
+                    "new_cases": 1,
+                    "active_cases": 12,
+                    "total_cases": 3147,
+                    "total_deaths": 12
+                }
+            }
+        ]
+    }
+}

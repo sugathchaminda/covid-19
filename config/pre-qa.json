@@ -1,0 +1,30 @@
+{
+    "version": "1.0.0",
+    "api_version_prefix": "/api/v1",
+    "port": 4000,
+    "cors_urls": "*",
+    "site_url": "http://localhost:4001",
+    "database": {
+          "mongodb": {
+                // "host": "192.168.43.235",
+                 "host": "192.168.1.5",
+              "port": 27022,
+              "name": "covid_19"
+          }
+      },
+      "cache": {
+          "redis": {
+              "host": "sc_redis",
+              "port": "6379",
+              "name": "redis"
+          }
+      },
+      "logs": {
+          "cron": "./logs/cron.log",
+          "controller": "./logs/controller.log"
+      },
+      "jwt": {
+          "jwt_common_secret": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTZlZWU3ODkwIiwibmFtZSI6InN1Z2F0aCBmZXJuYW5kbyIsImlhdCI6NjQzMzI2Nzk1NTQwfQ.Ib6sgjscXCf14Hd3du_bPUyZm6JWl_Q5UXcKVjBcM1o",
+          "jwt_auth_secret": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTZlZWU3ODkwIiwibmFtZSI6InNzYyBmZXJuYW5kbyIsImlhdCI6NjQzMzI2Nzk1NTQwfQ.Hvf06ivGjZ71AY1l6P6bALr-eEnWxH4dVnWvhPNoAiY"
+      }
+  }

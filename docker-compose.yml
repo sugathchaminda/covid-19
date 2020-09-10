@@ -1,0 +1,30 @@
+version: '3'
+services:
+    sc_node:
+        container_name: 'sc_node'
+        image: node:12.14.1
+        volumes:
+            - ./:/app
+        working_dir: /app
+        user: 'node'
+        environment:
+            - NODE_ENV=dev
+        depends_on:
+            - sc_mongo
+            - sc_redis
+        ports:
+            - 4000:4000
+    sc_mongo:
+        container_name: 'sc_mongo'
+        image: mongo:4.2.2
+        expose:
+            - 27017
+        volumes:
+          - ~/data/db:/data/db
+        ports:
+            - '27022:27017'
+    sc_redis:
+        container_name: 'sc_redis'
+        image: redis
+        ports:
+            - '6381:6379'
