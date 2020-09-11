@@ -7,10 +7,12 @@
                 "name": "Central",
                 "stat": {
                     "recovered": 2946,
-                    "new_cases": 1,
                     "active_cases": 12,
                     "total_cases": 3147,
-                    "total_deaths": 12
+                    "total_deaths": 12,
+                    "suspected": 70,
+                    "death_rate": "3.23",
+                    "recovery_rate": "71.55"
                 }
             },
             {
@@ -18,10 +20,12 @@
                 "name": "Eastern",
                 "stat": {
                     "recovered": 2946,
-                    "new_cases": 1,
                     "active_cases": 12,
                     "total_cases": 3147,
-                    "total_deaths": 12
+                    "total_deaths": 12,
+                    "suspected": 70,
+                    "death_rate": "3.23",
+                    "recovery_rate": "71.55"
                 }
             },
             {
@@ -29,10 +33,12 @@
                 "name": "Northern",
                 "stat": {
                     "recovered": 2946,
-                    "new_cases": 1,
                     "active_cases": 12,
                     "total_cases": 3147,
-                    "total_deaths": 12
+                    "total_deaths": 12,
+                    "suspected": 70,
+                    "death_rate": "3.23",
+                    "recovery_rate": "71.55"
                 }
             },
             {
@@ -40,10 +46,12 @@
                 "name": "Southern",
                 "stat": {
                     "recovered": 2946,
-                    "new_cases": 1,
                     "active_cases": 12,
                     "total_cases": 3147,
-                    "total_deaths": 12
+                    "total_deaths": 12,
+                    "suspected": 70,
+                    "death_rate": "3.23",
+                    "recovery_rate": "71.55"
                 }
             },
             {
@@ -51,10 +59,12 @@
                 "name": "Western",
                 "stat": {
                     "recovered": 2946,
-                    "new_cases": 1,
                     "active_cases": 12,
                     "total_cases": 3147,
-                    "total_deaths": 12
+                    "total_deaths": 12,
+                    "suspected": 70,
+                    "death_rate": "3.23",
+                    "recovery_rate": "71.55"
                 }
             },
             {
@@ -62,10 +72,12 @@
                 "name": "North Western",
                 "stat": {
                     "recovered": 2946,
-                    "new_cases": 1,
                     "active_cases": 12,
                     "total_cases": 3147,
-                    "total_deaths": 12
+                    "total_deaths": 12,
+                    "suspected": 70,
+                    "death_rate": "3.23",
+                    "recovery_rate": "71.55"
                 }
             },
             {
@@ -73,10 +85,12 @@
                 "name": "North Central",
                 "stat": {
                     "recovered": 2946,
-                    "new_cases": 1,
                     "active_cases": 12,
                     "total_cases": 3147,
-                    "total_deaths": 12
+                    "total_deaths": 12,
+                    "suspected": 70,
+                    "death_rate": "3.23",
+                    "recovery_rate": "71.55"
                 }
             },
             {
@@ -84,10 +98,12 @@
                 "name": "Uva",
                 "stat": {
                     "recovered": 2946,
-                    "new_cases": 1,
                     "active_cases": 12,
                     "total_cases": 3147,
-                    "total_deaths": 12
+                    "total_deaths": 12,
+                    "suspected": 70,
+                    "death_rate": "3.23",
+                    "recovery_rate": "71.55"
                 }
             },
             {
@@ -95,10 +111,12 @@
                 "name": "Sabaragamuwa",
                 "stat": {
                     "recovered": 2946,
-                    "new_cases": 1,
                     "active_cases": 12,
                     "total_cases": 3147,
-                    "total_deaths": 12
+                    "total_deaths": 12,
+                    "suspected": 70,
+                    "death_rate": "3.23",
+                    "recovery_rate": "71.55"
                 }
             }
         ]

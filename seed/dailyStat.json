@@ -1,0 +1,12 @@
+{
+    "dailyStat": {
+        "model": "DailyStat",
+        "documents": [
+            {
+                "new_cases": 2946,
+                "new_deaths": 12,
+                "recovered": 3147
+            }
+        ]
+    }
+}

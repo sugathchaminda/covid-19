@@ -7,10 +7,6 @@ const GeneralStatSchema = new Schema({
         type: Number,
         default: 0,
     },
-    confirmed: {
-        type: Number,
-        default: 0,
-    },
     active_cases: {
         type: Number,
         default: 0,
@@ -22,6 +18,18 @@ const GeneralStatSchema = new Schema({
     total_deaths: {
         type: Number,
         default: 0,
+    },
+    suspected: {
+        type: Number,
+        default: 0,
+    },
+    death_rate: {
+        type: String,
+        default: null,
+    },
+    recovery_rate: {
+        type: String,
+        default: null,
     },
 }, { collection: 'general_stat', timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' } });
 
