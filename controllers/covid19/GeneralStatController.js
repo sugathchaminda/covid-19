@@ -19,7 +19,8 @@ class GeneralStatController extends Router {
         const { CODES: { SUCCESS } } = responseMessages;
 
         try {
-            const generalStats = await GeneralStatModel.find().select('-_id recovered active_cases total_cases total_deaths suspected death_rate recovery_rate');
+            const generalStats = await GeneralStatModel.find()
+                .select('-_id recovered active_cases total_cases total_deaths suspected death_rate recovery_rate');
 
             return responseHelper.response(res, 200, { generalStats }, true, SUCCESS, null);
         } catch (error) {

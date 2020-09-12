@@ -1,9 +1,9 @@
-import CustomerModel from './Customer';
 import GeneralStatModel from './GeneralStat';
 import ProvinceStatModel from './ProvinceStat';
+import DailyStatModel from './DailyStat';
 
 module.exports = {
-    CustomerModel,
     GeneralStatModel,
     ProvinceStatModel,
+    DailyStatModel,
 };

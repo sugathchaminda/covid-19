@@ -5,7 +5,7 @@ import bunyan from 'bunyan';
 import config from 'config';
 
 const logger = bunyan.createLogger({
-    name: 'safe-com-mobile-controller',
+    name: 'covid-19-controller',
     streams: [{ path: config.logs.controller }],
 });
 

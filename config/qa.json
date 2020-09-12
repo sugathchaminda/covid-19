@@ -9,7 +9,7 @@
                 // "host": "192.168.43.235",
                  "host": "192.168.1.5",
               "port": 27022,
-              "name": "safe_community"
+              "name": "covid_19"
           }
       },
       "cache": {

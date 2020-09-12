@@ -6,7 +6,7 @@ const Authorization = () => async (req, res, next) => {
 
     const { id } = req.user;
 
-    req.redis.hgetall(`safe_com_user_${id}`, async (error, cachedUser) => {
+    req.redis.hgetall(`covid_19_user_${id}`, async (error, cachedUser) => {
         if (error) {
             res.boom.badImplementation('Can not find cached user data');
         } else if (cachedUser) {

@@ -1,11 +1,11 @@
 {
-    "name": "safe-community-mobile-api",
+    "name": "covid-19-api",
     "version": "1.0.0",
     "engines": {
         "node": ">=12.14.1",
         "yarn": ">=1.13.0"
     },
-    "description": "SafeCommunities Mobile APIs",
+    "description": "covid-19 APIs",
     "main": "app.js",
     "scripts": {
         "seed:dev": "cross-env NODE_ENV=dev babel-node ./seed/",
@@ -49,7 +49,6 @@
         "passport-local": "^1.0.0",
         "redis": "^2.8.0",
         "require-all": "^3.0.0",
-        "safe-comm-common": "git+https://e25-developers:QaJzdpejAzWKTjg-_Xf2@gitlab.com/e25mobile/safe-comm-common.git#master",
         "twilio": "^3.39.4"
     },
     "devDependencies": {
