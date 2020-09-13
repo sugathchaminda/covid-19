@@ -3,11 +3,11 @@
         "model": "GeneralStat",
         "documents": [
             {
-                "recovered": 2946,
+                "recovered": 2996,
                 "active_cases": 12,
-                "total_cases": 3147,
+                "total_cases": 3234,
                 "total_deaths": 12,
-                "suspected": 70,
+                "suspected": 49,
                 "death_rate": "3.23",
                 "recovery_rate": "71.55"
             }
