@@ -19,13 +19,10 @@
 - nvm use
 
 ## Install dependency
-- docker-compose run --service-ports --rm sc_node yarn install
+- docker-compose run --service-ports --rm sc_node yarn install (Or use only 'yarn' command)
 
 ## Seeds
 - docker-compose run --service-ports --rm sc_node yarn seed:dev
 
 ## How run on local
 - docker-compose run --service-ports --rm sc_node yarn server:dev
-
-## How run unit tests
-- docker-compose run --service-ports --rm sc_node yarn test

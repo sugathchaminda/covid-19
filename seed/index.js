@@ -6,7 +6,6 @@ import generalStatData from './generalStat.json';
 import provinceStatData from './provinceStat.json';
 import dailyStatData from './dailyStat.json';
 
-
 const dbPath = `mongodb://${config.database.mongodb.host}:${config.database.mongodb.port}/${config.database.mongodb.name}`;
 
 seeder.connect(dbPath, { useNewUrlParser: true, useCreateIndex: true }, () => {

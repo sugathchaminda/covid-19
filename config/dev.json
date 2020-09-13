@@ -6,8 +6,8 @@
   "site_url": "http://localhost:4001",
   "database": {
         "mongodb": {
-            //"host": "192.168.43.235",
-            "host": "localhost",
+               //"host": "192.168.43.235",
+                 "host": "192.168.1.5",
             "port": 27022,
             "name": "covid_19"
         }
