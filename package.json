@@ -22,7 +22,7 @@
         "lint": "eslint .",
         "lint:fix": "eslint --fix ."
     },
-    "author": "Eight25media",
+    "author": "SugathChaminda",
     "license": "ISC",
     "dependencies": {
         "@hapi/boom": "^9.0.0",
